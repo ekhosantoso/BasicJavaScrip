@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> logika Switch</title>
+</head>
+<body>
+
+	<h1>Amati Logika</h1>
+
+	<script type="text/javascript">
+	
+
+
+	//terlebih dahulu nyatakan sebuah variabel agar dapat dikenali.	
+	var situs= "twitter";
+
+	//switch merupan salah satu untuk memberikaan suatu pilihan
+	//terdapat case yang bergguna untuk memberikan ruang atau nilai yang akan di pilihnya.
+	//dan break akan berfungsi untuk memberhentikan esekusi jika syarat nlai terpenuhi.
+	//Jika nilai tidak terpenuhi maka semua proses akan berhenti dan akan dinyatakan default yang dalam arti tersebut sudah di beri patokan
+	switch (situs){
+		case "google":
+			console.log('<a href="http://www.google.com"> Situs Google</a>');
+				break;
+
+		case "facebook":
+			console.log('<a href="http://facebook.com"> Situs facebook</a>');
+				break;
+		
+		case "twitter":
+			console.log('<a href="http://twitter.com"> Situs twitter</a>');
+				break;			
+
+		default:
+			console.log("Situs tidak Tersedia");
+	}
+
+	</script>
+
+
+</body>
+</html>
