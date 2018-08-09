@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Percabangan Dn perbanding</title>
+</head>
+<body>
+		<h1>Perhatikan Percabangan</h1>
+
+		<script type="text/javascript">
+			var foo ="eko";
+			console.log("nilai foo = " + foo);
+
+			// Jika nilai var ber tipe kan number makan akan di Esekusi terlebih dahulu dengan menggunakan penyataan IF dan nilai.
+			//Number akan menunjukan apakah nilai fo adalah lebih besar dari 10 
+			if ((typeof foo === "number") && (foo >= 10)) {
+				console.log("foo Bertipe Number");
+				console.log("nilai foo besar dari 10");
+			}
+
+
+			//else if akan di esekusi jikan nilai dari foo bernilai lebih kecil dari 10 
+			//maka akan mendapatkan sebuah stantmen yang menunjukan bahwa nilai tersebut adalah lebih kecil dari 10
+			else if ((typeof foo === "number")&& (foo < 10)){
+				console.log("nilai bertipe number");
+				console.log("nilai lebih kecil dari 10");
+			}
+
+			//di beri lagi dengan jika  tipe dada bertipe ka string makan 
+			//hasil akan di esekusi den memberikan almat string
+			else if  (typeof foo === "string"){
+				console.log("fo bertipe String");
+			}
+			else {
+				console.log("bukan merupan tipe string");
+			}
+
+
+
+
+
+
+		</script>
+
+</body>
+</html>
